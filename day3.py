@@ -125,11 +125,12 @@ name = ["ola", "ife", "ade",]
 print(name)
 num=[1,2,3,4,5]
 print(num)'''
-x = 30
-a = 0
-while a >= 0:
-    print("Hello world")
-    if a == 2:
-        break
-    a+=1
+def greetings(name):
+    msg = f"Hello {name} thanks for joining us today"
+    print(msg)
+name = "Heritage", "Daniel", "VIP"
+for names in name:
+    wlc_msg = greetings(names)
+    
+
     
