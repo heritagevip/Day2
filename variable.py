@@ -29,14 +29,45 @@ class bankaccount:
         else:
             print(f"You are about to withdraw {self.price} and your new balance is {new_balance}")
             log_msg(f"{self.owner.name} withdraw {self.price}")
+            self.balance = self.balance - self.price
     def check_balance(self):
         Updated_balance = self.balance
         print(f"Dear {self.owner.name} your balance is {Updated_balance}")
         log_msg(f"{self.owner.name} checked his account balance")
 
-owner1 = owner("Heritage", 20)
-balance1 = bankaccount(30, owner1)
-balance1.deposit(400)
-balance1.deposit(30)
-balance1.withdraw(50)
-balance1.check_balance()
+
+class user:
+    def __init__(self, username, email, password):
+        self.username = username
+        self.email = email
+        self.password = password
+    
+    def say_hi_to_user(self, user):
+        print(f"Sending message to {user.username}: Hi {user.username}, and  it is {self.username} ")
+
+class student_info:
+    def __init__(self, name, age, level):
+        self.name = name
+        self.age = age
+        self.level = level
+
+
+class student:
+    def __init__(self, student_info):
+        self.score = []
+        self.student_info = student_info
+    
+    def add_score(self, new_score): 
+        self.score.append(new_score)
+        print(self.score)
+    
+    def average(self,):
+        average_grade = sum(self.score) / len(self.score)
+        print(f"Dear {self.student_info.name}, your average grade is {average_grade}.")
+        
+student_name1 = student_info("Heritage", "20", "200")
+student1 = student(student_name1)
+student1.add_score(59)
+student1.add_score(48)
+student1.add_score(88)
+student1.average()
