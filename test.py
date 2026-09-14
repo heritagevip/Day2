@@ -40,3 +40,9 @@ else:
     log_msg(f"{clean_and_split(email)}")
 log_msg("App Ended")
 
+assert isinstance(to_email, list)
+msg = MIMEMultipart("Alternamte")
+msg['From'] = from_email
+msg['To'] = ", ".join(to_email)
+txt_part = MIMEText(text, 'plain')
+msg.attach(txt_part)

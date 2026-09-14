@@ -124,13 +124,18 @@ clean_text("Heritage    ")
 name = ["ola", "ife", "ade",]
 print(name)
 num=[1,2,3,4,5]
-print(num)'''
+print(num)
+# Assertion
+def passcode(password):
+    assert len(password) > 8
+    print(password) 
+passcode("123456797")'''
 def greetings(name):
     msg = f"Hello {name} thanks for joining us today"
     print(msg)
 name = "Heritage", "Daniel", "VIP"
 for names in name:
     wlc_msg = greetings(names)
-    
+
 
     

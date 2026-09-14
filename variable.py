@@ -16,24 +16,26 @@ class bankaccount:
         self.owner = owner
     
     def deposit(self, amount):
-        self.balance = self.balance + amount
-        print(self.balance)
+        self._balance = self._balance + amount
         log_msg(f"{self.owner.name} added {amount} to his bank account")
 
     def withdraw(self, price):
         self.price = price
-        new_balance = self.balance - self.price
-        if  self.balance - self.price < 0:
+        new_balance = self._balance - self.price
+        if  self._balance - self.price < 0:
             print("insufficient Funds")
             log_msg(f"{self.owner.name} tried to withdraw money but he gat no money in his acct")
         else:
             print(f"You are about to withdraw {self.price} and your new balance is {new_balance}")
             log_msg(f"{self.owner.name} withdraw {self.price}")
-            self.balance = self.balance - self.price
+            self._balance = self._balance - self.price
     def check_balance(self):
-        Updated_balance = self.balance
+        Updated_balance = self._balance
         print(f"Dear {self.owner.name} your balance is {Updated_balance}")
         log_msg(f"{self.owner.name} checked his account balance")
+
+    def get_balance(self):
+        return self._balance
 
 
 class user:
@@ -64,10 +66,8 @@ class student:
     def average(self,):
         average_grade = sum(self.score) / len(self.score)
         print(f"Dear {self.student_info.name}, your average grade is {average_grade}.")
-        
-student_name1 = student_info("Heritage", "20", "200")
-student1 = student(student_name1)
-student1.add_score(59)
-student1.add_score(48)
-student1.add_score(88)
-student1.average()
+
+owner1 = owner("Heritage", 90)
+
+account1 = bankaccount(10000, owner1)
+print(account1.get_balance())

@@ -13,7 +13,7 @@ class owner:
 
 owner1 = owner("Heritage", "09074176779", "Ekiti")
 dog1 = pet("Bruce", "German Shepard",owner1)
-print(dog1.owner.address)
+
 owner2 = owner("vip", "09074176779", "Ekiti")
 dog2 = pet("Bruce", "German Shepard",owner2)
 
