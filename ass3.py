@@ -7,7 +7,10 @@ class user:
     def __init__(self, username, email, password):
         self.username = username
         self._email = email
-        self.password = password
+        if len(password) >= 8:
+            self._password = password
+        else:
+            raise ValueError("invalid password")
         self.clean_email()
         log_msg(f"user {self.username}")
         log_msg(f"Email : {self._email}")
@@ -22,9 +25,20 @@ class user:
         
     def set_email(self, new_email):
         new_email = new_email.strip().lower()
-        self._email = new_email
+        if "@" and "." in new_email:
+            self._email = new_email
+        else:
+            raise ValueError("INVALID EMAIL")
         log_msg(f"Email was updated at {datetime.now()}")
         log_msg(f"New email = {new_email}")
+    
+    def set_pasword(self, new_password):
+        if len(new_password) >= 8:
+            self._password = new_password
+        else:
+            raise ValueError ("Invalid password")
+    def get_password(self):
+        return self._password
     
 
 
@@ -32,3 +46,5 @@ user1 = user("VIP", "Ademokunwaheritage@gmail.com    ", "12345678")
 print(user1.get_email())
 user1.set_email("Hdevx@gmail.com")
 print(user1.get_email())
+user1.set_pasword("Heritage@1234")
+print(user1.get_password())
