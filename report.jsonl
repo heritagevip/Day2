@@ -1,0 +1,44 @@
+{"Transaction_type": "Deposit", "Amount": 10000, "Balance": 10000}
+{"Transaction_type": "Deposit", "Amount": 10000, "Balance": 10000}
+{"Transaction_type": "Deposit", "Amount": 10000, "Balance": 10000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 1000, "Balance": 1000, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 1000, "Balance": 1000, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 1000, "Balance": 1000, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 1000, "Balance": 920, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 1000, "Balance": 920, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 100, "Balance": 100, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 100, "Balance": 100, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 100, "Balance": 100, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 100, "Balance": 100, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 100, "Balance": 100, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 80, "Balance": 100, "Transaction status": "Failed"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balance": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 80, "Balance": 920, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Withdraw", "Amount": 500, "Balances": 1500, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 2000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 2000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 2000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 2000, "Balances": 2000, "Transaction status": "Succesfull"}
+{"Transaction_type": "Deposit", "Amount": 1000, "Balances": 1000, "Transaction status": "Succesfull"}
